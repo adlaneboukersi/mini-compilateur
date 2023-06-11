@@ -1,0 +1,538 @@
+
+C:\Users\Msi GL69\Desktop\Compile_projet>flex lexical.l 
+
+C:\Users\Msi GL69\Desktop\Compile_projet>bison -d syntaxique.y 
+
+C:\Users\Msi GL69\Desktop\Compile_projet>gcc lex.yy.c syntaxique.tab.c TS.c RS.c QUAD.c Pile.c Optm.c Asmb.c -lfl -ly -o compil.exe 
+
+C:\Users\Msi GL69\Desktop\Compile_projet>compil.exe
+ le separateur || < || est reconnu 
+ le separateur || ! || est reconnu 
+ le mot cle || docprogram || est reconnu 
+ IDF || ID01 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || SUB || est reconnu 
+ le mot cle || VARIABLE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || | || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || | || est reconnu 
+ IDF || var3 || est reconnu  
+ le separateur || | || est reconnu 
+ IDF || var4 || est reconnu  
+ le separateur || | || est reconnu 
+ IDF || var5 || est reconnu  
+ le mot cle || AS || est reconnu 
+ le mot cle || INT || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ IDF || f || est reconnu  
+ le mot cle || AS || est reconnu 
+ le mot cle || FLT || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || SUB || est reconnu 
+ le mot cle || CONSTANTE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ IDF || cst1 || est reconnu  
+ le mot cle || AS || est reconnu 
+ le mot cle || STR || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ IDF || cst2 || est reconnu  
+ le separateur || = || est reconnu 
+ CHR || 'a' || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || SUB || est reconnu 
+ le mot cle || CONSTANTE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || ARRAY || est reconnu 
+ le mot cle || AS || est reconnu 
+ le mot cle || INT || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || : || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || ARRAY || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || SUB || est reconnu 
+ le mot cle || VARIABLE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || body || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ le separateur || ( || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || + || est reconnu 
+ le separateur || ( || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "var1= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ le separateur || ( || est reconnu 
+ ENTIER || 2 || est reconnu 
+ le separateur || - || est reconnu 
+ ENTIER || 7 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || * || est reconnu 
+ le separateur || ( || est reconnu 
+ le separateur || ( || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 8 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 3 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar1= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || + || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || - || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar1= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || INPUT || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var2 || est reconnu  
+ STR || "\ndonner var2: $" || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar2= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || IF || est reconnu 
+ le separateur || : || est reconnu 
+ le mot cle || AND || est reconnu 
+ le separateur || ( || est reconnu 
+ BOOL || TRUE || est reconnu 
+ le separateur || , || est reconnu 
+ le mot cle || SUPE || est reconnu 
+ le separateur || ( || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || ) || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || THEN || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\ntrue" || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || THEN || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || ELSE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nfalse" || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || ELSE || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || IF || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || INPUT || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || cst1 || est reconnu  
+ STR || "\ndonner cst1: #" || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\ncst1= #" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || cst1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\ncst2= &" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || cst2 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || DO || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || + || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar1= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || WHILE || est reconnu 
+ le separateur || : || est reconnu 
+ le mot cle || DIF || est reconnu 
+ le separateur || ( || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || ) || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || DO || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || FOR || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || = || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le mot cle || Until || est reconnu 
+ ENTIER || 10 || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar1= $" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || IF || est reconnu 
+ le separateur || : || est reconnu 
+ le mot cle || INF || est reconnu 
+ le separateur || ( || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || ) || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || THEN || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || FOR || est reconnu 
+ IDF || var5 || est reconnu  
+ le separateur || = || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le mot cle || Until || est reconnu 
+ ENTIER || 3 || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\n\"var5 est inferieure de 5\"" || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || FOR || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || THEN || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || IF || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || FOR || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || [ || est reconnu 
+ ENTIER || 0 || est reconnu 
+ le separateur || ] || est reconnu 
+ le separateur || , || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\ntab1[0]=$" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || [ || est reconnu 
+ ENTIER || 0 || est reconnu 
+ le separateur || ] || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || [ || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || ] || est reconnu 
+ le separateur || , || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || [ || est reconnu 
+ ENTIER || 0 || est reconnu 
+ le separateur || ] || est reconnu 
+ le separateur || + || est reconnu 
+ ENTIER || 5 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\ntab1[1]=$" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || tab1 || est reconnu  
+ le separateur || [ || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || ] || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ ENTIER || 3 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 2 || est reconnu 
+ le separateur || + || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || , || est reconnu 
+ ENTIER || 3 || est reconnu 
+ le separateur || * || est reconnu 
+ ENTIER || 2 || est reconnu 
+ le separateur || + || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar1=$" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar2=$" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var2 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || - || est reconnu 
+ ENTIER || 1 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var3 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var1 || est reconnu  
+ le separateur || * || est reconnu 
+ ENTIER || 2 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || AFF || est reconnu 
+ le separateur || : || est reconnu 
+ IDF || var4 || est reconnu  
+ le separateur || , || est reconnu 
+ IDF || var3 || est reconnu  
+ le separateur || + || est reconnu 
+ ENTIER || 7 || est reconnu 
+ le separateur || /> || est reconnu 
+ le separateur || < || est reconnu 
+ le mot cle || OUTPUT || est reconnu 
+ le separateur || : || est reconnu 
+ STR || "\nvar4=$" || est reconnu 
+ le separateur || + || est reconnu 
+ IDF || var4 || est reconnu  
+ le separateur || /> || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || body || est reconnu 
+ le separateur || > || est reconnu 
+ le separateur || </ || est reconnu 
+ le mot cle || docprogram || est reconnu 
+ le separateur || > || est reconnu 
+le programme lexicalement, syntaxiquement et semantiquement correct
+_________________________________________________________________________________
+	|   Nom_IDF   |   Type_IDF   |   Classe_IDF   |   estAff    |  tailleTab
+_________________________________________________________________________________
+	|      tab1   |        INT   |         array  |          2  |          5  
+	|         f   |        FLT   |      variable  |          0  |          0  
+	|      var3   |        INT   |      variable  |          1  |          0  
+	|      var4   |        INT   |      variable  |          1  |          0  
+	|      ID01   |              |           idf  |          0  |          0  
+	|      cst1   |        STR   |        cst_f2  |          1  |          0  
+	|      var5   |        INT   |      variable  |          1  |          0  
+	|      cst2   |        CHR   |        cst_f1  |          1  |          0  
+	|      var1   |        INT   |      variable  |          7  |          0  
+	|      var2   |        INT   |      variable  |          2  |          0  
+_________________________________________________________________________________
+
+________________________________________________________________________________________________________
+	|   Nom_IDF   |                        Exp_IDF                        |   Nbr_Use
+________________________________________________________________________________________________________
+	|      tab1   |                                                       |         5   
+	|         f   |                                                       |         0   
+	|      var3   |                                                       |         1   
+	|      var4   |                                                       |         2   
+	|      ID01   |                                                       |         2   
+	|      cst1   |                                                       |         4   
+	|      var5   |                                                       |         2   
+	|      cst2   |                                                       |         2   
+	|      var1   |                                                       |        24   
+	|      var2   |                                                       |         9   
+________________________________________________________________________________________________________
+
+0-( AFF , 'a' ,  , cst2 ) etiq=0
+1-( * , 5 , 1 , ^T0 ) etiq=0
+2-( * , 5 , 1 , ^T1 ) etiq=0
+3-( + , ^T0 , ^T1 , ^T2 ) etiq=0
+4-( AFF , ^T2 ,  , var1 ) etiq=0
+5-( OUT , "var1= " , var1 ,  ) etiq=0
+6-( - , 2 , 7 , ^T3 ) etiq=0
+7-( * , 5 , 1 , ^T4 ) etiq=0
+8-( * , ^T4 , 8 , ^T5 ) etiq=0
+9-( * , ^T5 , 3 , ^T6 ) etiq=0
+10-( * , ^T3 , ^T6 , ^T7 ) etiq=0
+11-( AFF , ^T7 ,  , var1 ) etiq=0
+12-( OUT , "\nvar1= " , var1 ,  ) etiq=0
+13-( + , 5 , 1 , ^T8 ) etiq=0
+14-( - , ^T8 , 1 , ^T9 ) etiq=0
+15-( AFF , ^T9 ,  , var1 ) etiq=0
+16-( OUT , "\nvar1= " , var1 ,  ) etiq=0
+17-( OUT , "\ndonner var2: " ,  ,  ) etiq=0
+18-( IN ,  ,  , var2 ) etiq=0
+19-( OUT , "\nvar2= " , var2 ,  ) etiq=0
+20-( BGE , var1 , var2 , 23 ) etiq=0
+21-( AFF , FALSE ,  , ^T10 ) etiq=0
+22-( BR ,  ,  , 24 ) etiq=0
+23-( AFF , TRUE ,  , ^T10 ) etiq=1
+24-( BZ , TRUE ,  , 28 ) etiq=1
+25-( BZ , ^T10 ,  , 28 ) etiq=0
+26-( AFF , TRUE ,  , ^T11 ) etiq=0
+27-( BR ,  ,  , 29 ) etiq=0
+28-( AFF , FALSE ,  , ^T11 ) etiq=1
+29-( BZ , ^T11 ,  , 32 ) etiq=1
+30-( OUT , "\ntrue" ,  ,  ) etiq=0
+31-( BR ,  ,  , 33 ) etiq=0
+32-( OUT , "\nfalse" ,  ,  ) etiq=1
+33-( OUT , "\ndonner cst1: " ,  ,  ) etiq=1
+34-( IN ,  ,  , cst1 ) etiq=0
+35-( OUT , "\ncst1= " , cst1 ,  ) etiq=0
+36-( OUT , "\ncst2= " , cst2 ,  ) etiq=0
+37-( + , var1 , 1 , ^T12 ) etiq=1
+38-( AFF , ^T12 ,  , var1 ) etiq=0
+39-( OUT , "\nvar1= " , var1 ,  ) etiq=0
+40-( BNE , var1 , var2 , 43 ) etiq=0
+41-( AFF , FALSE ,  , ^T13 ) etiq=0
+42-( BR ,  ,  , 44 ) etiq=0
+43-( AFF , TRUE ,  , ^T13 ) etiq=1
+44-( BNZ , ^T13 ,  , 37 ) etiq=1
+45-( AFF , 1 ,  , var1 ) etiq=0
+46-( BG , var1 , 10 , 63 ) etiq=1
+47-( OUT , "\nvar1= " , var1 ,  ) etiq=0
+48-( BL , var1 , 5 , 51 ) etiq=0
+49-( AFF , FALSE ,  , ^T14 ) etiq=0
+50-( BR ,  ,  , 52 ) etiq=0
+51-( AFF , TRUE ,  , ^T14 ) etiq=1
+52-( BZ , ^T14 ,  , 60 ) etiq=1
+53-( AFF , 1 ,  , var5 ) etiq=0
+54-( BG , var5 , 3 , 59 ) etiq=1
+55-( OUT , "\n\"var5 est inferieure de 5\"" ,  ,  ) etiq=0
+56-( + , var5 , 1 , ^T15 ) etiq=0
+57-( AFF , ^T15 ,  , var5 ) etiq=0
+58-( BR ,  ,  , 54 ) etiq=0
+59-( BR ,  ,  , 60 ) etiq=1
+60-( + , var1 , 1 , ^T16 ) etiq=1
+61-( AFF , ^T16 ,  , var1 ) etiq=0
+62-( BR ,  ,  , 46 ) etiq=0
+63-( AFF , var1 ,  , tab1[0] ) etiq=1
+64-( OUT , "\ntab1[0]=" , tab1[0] ,  ) etiq=0
+65-( + , tab1[0] , 5 , ^T17 ) etiq=0
+66-( AFF , ^T17 ,  , tab1[1] ) etiq=0
+67-( OUT , "\ntab1[1]=" , tab1[1] ,  ) etiq=0
+68-( * , 3 , 2 , ^T18 ) etiq=0
+69-( + , ^T18 , 1 , ^T19 ) etiq=0
+70-( AFF , ^T19 ,  , var1 ) etiq=0
+71-( * , 3 , 2 , ^T20 ) etiq=0
+72-( + , ^T20 , 1 , ^T21 ) etiq=0
+73-( AFF , ^T21 ,  , var2 ) etiq=0
+74-( OUT , "\nvar1=" , var1 ,  ) etiq=0
+75-( OUT , "\nvar2=" , var2 ,  ) etiq=0
+76-( - , var1 , 1 , ^T22 ) etiq=0
+77-( AFF , ^T22 ,  , var1 ) etiq=0
+78-( * , var1 , 2 , ^T23 ) etiq=0
+79-( AFF , ^T23 ,  , var3 ) etiq=0
+80-( + , var3 , 7 , ^T24 ) etiq=0
+81-( AFF , ^T24 ,  , var4 ) etiq=0
+82-( OUT , "\nvar4=" , var4 ,  ) etiq=0

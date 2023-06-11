@@ -1,0 +1,88 @@
+< ! docprogram ID01 />
+< SUB VARIABLE >
+    < var1|var2|var3|var4|var5 AS INT />
+    < f AS FLT />
+    <SUB CONSTANTE>
+        <cst1 AS STR/>
+        <cst2='a'/>
+    </SUB CONSTANTE>
+    <ARRAY AS INT > 
+        <tab1: 5/>
+    </ARRAY>
+</ SUB VARIABLE >
+<body> 
+    ;
+    <AFF: var1 , -5 />
+    <AFF: var1 , (5+4)*6-8) />
+    <AFF: var1 , 5/0 />
+    <AFF: var1 , 32768 />
+    <AFF: var1 , NOT(var1) />
+    ;
+
+    <AFF: var1 , (5*1)+(5*1) />
+    <OUTPUT: "var1= $"+var1 />
+    <AFF: var1 , (2-7)*((5*1)*8*3) />
+    <OUTPUT: "\nvar1= $"+var1 />
+    <AFF: var1 , 5+1-1 />
+    <OUTPUT: "\nvar1= $"+var1 />
+
+    ;
+    <OUTPUT: "\nvar1= @"+var1 />
+    <OUTPUT: "\nvar1="+var1 />
+    ;
+
+    <INPUT : var2 "\ndonner var2: $" />
+    <OUTPUT: "\nvar2= $"+var2 />
+
+    <IF: AND(TRUE,SUPE(var1,var2)) > 
+        <THEN> 
+            <OUTPUT: "\ntrue" /> 
+        </THEN> 
+        <ELSE> 
+            <OUTPUT: "\nfalse" /> 
+        </ELSE>          
+    </IF>
+
+    <INPUT : cst1 "\ndonner cst1: #" />
+    <OUTPUT: "\ncst1= #"+cst1 />
+    <OUTPUT: "\ncst2= &"+cst2 />
+
+    <DO> 
+        <AFF: var1 , var1+1 />
+        <OUTPUT: "\nvar1= $"+var1 />
+        <WHILE : DIF(var1,var2)/>  
+    </DO>
+
+    <FOR var1=1 Until 10> 
+        <OUTPUT: "\nvar1= $"+var1 />
+        <IF: INF(var1,5) > 
+            <THEN> 
+            <FOR var5=1 Until 3> 
+                <OUTPUT: "\n\"var5 est inferieure de 5\"" /> 
+            </FOR> 
+            </THEN>         
+        </IF>
+    </FOR>  
+
+    <AFF: tab1[0] , var1 />
+    <OUTPUT: "\ntab1[0]=$"+tab1[0] /> 
+    <AFF: tab1[1] , tab1[0]+5 />
+    <OUTPUT: "\ntab1[1]=$"+tab1[1] /> 
+
+    <AFF: var1 , 3*2+1 />
+    <AFF: var2 , 3*2+1 />
+    
+    <OUTPUT: "\nvar1=$"+var1 /> 
+    <OUTPUT: "\nvar2=$"+var2 /> 
+
+    <AFF: var1 , var1-1 />
+    <AFF: var3 , var1*2 />
+    <AFF: var4 , var3+7 />
+    <OUTPUT: "\nvar4=$"+var4 />
+     
+    ;
+    <AFF: f , 1.2 />
+    <OUTPUT: "\nvar3=%"+f />
+    ;
+</body> 
+</docprogram>
